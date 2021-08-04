@@ -1,70 +1,21 @@
+# Cusdis example
 
-<p align="center"><a href="https://cusdis.com" target="_blank" rel="noopener noreferrer"><img width="100" src="/public/images/artworks/logo-256.png" alt="logo"></a></p>
+This example deploys a self-hosted version of [Cusdis](https://cusdis.com/). Internally it uses a PostgreSQL database to store the data.
 
-Cusdis is an open-source, lightweight (~5kb gzip), privacy-friendly alternative to Disqus.
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Frailwayapp-starters%2Fcusdis&plugins=postgresql&envs=USERNAME%2CPASSWORD%2CNEXTAUTH_URL%2CJWT_SECRET%2CPORT&NEXTAUTH_URLDesc=The+domain+for+your+Cusdis+deployment&USERNAMEDefault=admin&PASSWORDDefault=password&NEXTAUTH_URLDefault=http%3A%2F%2Flocalhost%3A3000%2F&PORTDefault=3000)
 
-https://cusdis.com
+## ✨ Features
 
-![](/public/images/landing.png)
+- Cusdis
+- PostgreSQL
 
-## 💝 Sponsor this project
+## 💁‍♀️ How to use
 
-If you like Cusdis, please consider sponsoring us to help us be sustainable.
+- Click the Railway button 👆
+- Add the required environment variables
+- Deploy
+- Update the `NEXTAUTH_URL` environment variable to the your app domain. This should automatically trigger a re-deploy for you.
 
-### Principle Sponsor
+## 📝 Notes
 
-[![Contributors](https://opencollective.com/cusdis/tiers/organization-support/0/avatar.svg)](https://opencollective.com/cusdis/tiers/organization-support/0/website)
-
-[Become a principle sponsor](https://opencollective.com/cusdis/contribute/organization-support-27992/checkout)
-
-### Sponsors / Backers
-
-[![Contributors](https://opencollective.com/cusdis/tiers/sponsor.svg?avatarHeight=50)](https://opencollective.com/cusdis)
-[![Contributors](https://opencollective.com/cusdis/tiers/backer.svg?avatarHeight=50)](https://opencollective.com/cusdis)
-
-## Features
-
-- Lightweight comment widget, with i18n, dark mode.
-- Email notification
-- Webhook
-- Easy to self-host
-- Many integrations
-
-## Documentation
-
-https://cusdis.com/doc
-
-## Community
-
-[Discord](https://discord.gg/eDs5fc4Jcq)
-
-## FAQ
-
-## Compared to Disqus
-
-Cusdis is not designed to be a complete alternative to Disqus. It's aim is to implement a minimalist and embeddable comment system for small websites (such as your static blog).
-
-Given below are the pros and cons of Cusdis:
-
-### Pros
-
-- Cusdis is open-source and self-hostable. Hence, you own your data.
-- The SDK is lightweight(~5kb gzipped).
-- Cusdis doesn't require your user to sign in to make a comment.
-- Cusdis doesn't use cookies at all.
-
-### Cons
-
-- Cusdis is on the early stages of its development.
-- There is no spam filter, hence, you will have to manually moderate your comment section and comments won't be displayed until you approve them.
-- Disqus is a company, we aren't.
-
-## Contributing
-
-[Contributing Guide](https://cusdis.com/doc#/contributing)
-
-If you are going to make a PR, remember to choose `dev` as the base branch.
-
-# License
-
-GNU GPLv3
+- Visit the [Cusdis website](https://cusdis.com/) to view features and documentation.
